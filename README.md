@@ -7,3 +7,6 @@ Useful Commands Reference
 
 ```git stash && git add . && git stash pop```
 
+### Reset to head of current branch and remove untracked files or directories
+
+```git reset --hard HEAD --recurse-submodules && git clean -fd```
